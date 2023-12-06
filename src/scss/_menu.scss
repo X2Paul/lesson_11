@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 134px;
+  column-gap: 43px;
+
+  &__link {
+    display: block;
+    padding: $gap-sm 0;
+    letter-spacing: $letter-spacing;
+    color: $color-black;
+    line-height: $line-height-lg;
+  }
+
+  &:focus,
+  &:hover {
+    color: $color-primary;
+  }
+
+  @media (max-width: 760px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (max-width: 375px) {
+    align-items: center;
+    flex-direction: column;
+  }
+}

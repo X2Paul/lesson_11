@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  padding: 40px 0;
+  color: $color-white;
+  background-color: $color-primary;
+
+  &__name {
+    font-size: 21px;
+    font-weight: 500;
+  }
+
+  &__copyright {
+    padding-top: 14px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: $line-height-lg;
+  }
+
+  @media (max-width: 375px) {
+    text-align: center;
+  }
+}

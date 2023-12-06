@@ -1,0 +1,15 @@
+header {
+  min-height: 700px;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  background-color: $color-gray-light;
+}
+
+.container {
+  width: min(100% - $gap-lg, $container-pimary);
+  margin-inline: auto;
+}
+
+.container--sm {
+  width: min(100% - $gap-lg, $container-sm);
+}
